@@ -13,4 +13,19 @@ public:
     }
 };
 
+    void display() {
+        cout << name << "," << age << "," << roll_no << "," << marks << endl;
+    }
+};
+
+int main() {
+    Student s1 = {"Alice", 20, 101, 88.5};
+    Student s2 = {"Bob", 21, 102, 92.0};
+
+    cout << "--- Student Records ---" << endl;
+    s1.display();
+    s2.display();
+
+    return 0;
+}
 
